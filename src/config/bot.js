@@ -160,7 +160,7 @@ export const botConfig = {
       // Plural display name.
       namePlural: "Közpénz",
       // Currency symbol shown in balances.
-      symbol: "Ft",
+      symbol: "€",
     },
 
     // Starting balance for new users.
