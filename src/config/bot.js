@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made by: Jack (jackyy_001)",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 1, 
       },
     ],
   },
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "The Bot 2.0",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -156,32 +156,32 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Közpénz",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Közpénz",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "Ft",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 1000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 1000000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 10000,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 1000,
+    workMax: 10000,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 500,
+    begMax: 5000,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.25,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
@@ -231,7 +231,7 @@ export const botConfig = {
       urgent: {
         emoji: "🚨",
         color: "#E91E63",
-        label: "Urgent",
+        label: "Fontos",
       },
     },
 
@@ -281,7 +281,7 @@ export const botConfig = {
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "UTC",
+    timezone: "UTC+2",
   },
 
   // =========================
